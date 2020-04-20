@@ -25,6 +25,10 @@ p {
 	text-align: justify;
 }
 
+h1, h2, h4 {
+	font-family: 'Rubik', sans-serif;
+}
+
 .nav {
 	background-color: #41D2F2;
 }
