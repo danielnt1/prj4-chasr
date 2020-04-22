@@ -6,71 +6,80 @@
 	font-family: 'Rubik', sans-serif;
 }
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
 
-p {
-	font-family: 'Open Sans', sans-serif;
-	margin-top: 15px;
-	color: #0D0D0D;
-	text-align: justify;
-}
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #41D2F2;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
 
-h1, h2, h4 {
-	font-family: 'Rubik', sans-serif;
+   h3 {
+    font-size: 14px;
+   
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
 
-footer {
-	text-align: right;
+  .container-fluid {
+    padding: 60px 50px;
+  }
+ 
+  }
+  .panel {
+    border: 1px solid #fff; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #41D2F2;
+    background-color: #fff !important;
+    color: #41D2F2;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #41D2F2 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-body {
+  	padding: 20px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #41D2F2;
+    color: #fff;
+  }
 
-}
 
-.nav {
-	background-color: #41D2F2;
-}
-
-.promo {
-	background-color: #0D0D0D;
-	color: #F2F2F2;
-}
-
-.promoText {
-	color: #F2F2F2;
-	text-align: center;
-}
-
-.navtext {
-	text-align: left;
-	color: #F2F2F2;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
-}
-
-.currentPage {
-	color: #0D0D0D;
-}
-
-.carouselBG {
-	background-color: #F2F2F2;
-}
-
-.bodyBG {
-	background-color: #bbe8f2;
-	padding: 15px 0px 0px 0px;
-}
-
-.testimonial {
-	border: 1em solid #41D2F2;
-}
-
-.footerText {
-	text-align: right;
-	color: #F2F2F2;
-	padding: 20px;
-}
