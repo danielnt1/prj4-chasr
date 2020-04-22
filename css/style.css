@@ -6,71 +6,16 @@
 	font-family: 'Rubik', sans-serif;
 }
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+.jumbotron {
+	background-color: #41D2F2; /*bright blue*/
+	color: #ffffff;
+	padding: 100px 25px;
 }
 
-p {
-	font-family: 'Open Sans', sans-serif;
-	margin-top: 15px;
-	color: #0D0D0D;
-	text-align: justify;
+.bg-grey {
+  background-color: #f6f6f6;
 }
 
-h1, h2, h4 {
-	font-family: 'Rubik', sans-serif;
-}
-
-footer {
-	text-align: right;
-
-}
-
-.nav {
-	background-color: #41D2F2;
-}
-
-.promo {
-	background-color: #0D0D0D;
-	color: #F2F2F2;
-}
-
-.promoText {
-	color: #F2F2F2;
-	text-align: center;
-}
-
-.navtext {
-	text-align: left;
-	color: #F2F2F2;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
-}
-
-.currentPage {
-	color: #0D0D0D;
-}
-
-.carouselBG {
-	background-color: #F2F2F2;
-}
-
-.bodyBG {
-	background-color: #bbe8f2;
-	padding: 15px 0px 0px 0px;
-}
-
-.testimonial {
-	border: 1em solid #41D2F2;
-}
-
-.footerText {
-	text-align: right;
-	color: #F2F2F2;
-	padding: 20px;
+.container-fluid {
+	padding: 60px 50px;
 }
