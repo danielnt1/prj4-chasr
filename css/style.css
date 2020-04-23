@@ -94,6 +94,10 @@
   }
 }
 
+  .card {
+    margin-bottom: 20px;
+  }
+
 /* Jumbotron Package Container */
   .jumbotron {
   background-image: url("../images/yeet.jpg");
