@@ -15,7 +15,7 @@
   h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #41D2F2;
+    color: #17141a;
     font-weight: 600;
     margin-bottom: 30px;
  }
@@ -23,7 +23,7 @@
    h3 {
     font-size: 14px;
    
-    color: #fff;
+    color: #17141a;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -33,7 +33,28 @@
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-  }  
+  } 
+  h5 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  } 
+
+  .jumbotron {
+  background-image: url("../images/yeet.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 300px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 50px;
+}
 
   .container-fluid {
     padding: 60px 50px;
@@ -49,13 +70,13 @@
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-    border: 1px solid #41D2F2;
+    border: 1px solid #17141a;
     background-color: #fff !important;
-    color: #41D2F2;
+    color: #17141a;
   }
   .panel-heading {
     color: #fff !important;
-    background-color: #41D2F2 !important;
+    background-color: #17141a !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -69,17 +90,26 @@
   .panel-footer {
     background-color: white !important;
   }
-  .panel-footer h3 {
-    font-size: 32px;
-  }
-  .panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
   }
   .panel-footer .btn {
-    margin: 15px 0;
-    background-color: #41D2F2;
+    margin: 15px;
+    background-color: #17141a;
     color: #fff;
   }
+
+  .btn {
+  	background-color: #17141a;
+  	color: #fff;
+  	width: 100px;
+  	margin:  auto;
+ 	 display: block;
+  }
+  .card-title {
+  	text-align: center;
+  }
+  .card-text {
+  	text-align: center;
+  }
+
 
 
