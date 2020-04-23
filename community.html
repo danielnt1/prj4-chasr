@@ -2,77 +2,73 @@
 <html>
 
 <head>
-	<title>Community - Chasr</title>
-	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" >
-	<link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Thank You - Chasr</title>
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" >
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
-<body>
- <div class="container-fluid">
-        <div class="row nav">
-            <div class="col-10">
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="p-4">
-                        <nav class="nav">
-                            <a class="nav-link" href="index.html"><p class="navtext">Home</p></a>
-                            <a class="nav-link disabled" href="community.html"><p class="navtext currentPage">Community</p></a>
-                            <a class="nav-link" href="packages.html"><p class="navtext">Packages</p></a>
-                            <a class="nav-link" href="contact.html"><p class="navtext">Contact</p></a>
-                            <a class="nav-link" href="design_justification.html"><p class="navtext">Design Justification</p></a>
-                        </nav>
-                    </div>
-                </div>
-                <nav class="navbar navbar-dark">
-                    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                </nav>
-            </div>
-            <div class="col-2">
-                <img src="images/chasr_white.png" class="img-fluid" alt="chasr logo" height="15px">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-6" style="background-color: green">
-                <p>Image_Community</p>
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12" style="background-color: cyan">
-                        <p>Newsletter info</p>
-                    </div>
-                    <div class="col-12" style="background-color: red">
-                        <p>Subscribe to newsletter!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6" style="background-color: blue">
-                <p>Testimonials</p>
-            </div>
-            <div class="col-6" style="background-color: yellow">
-                <p>Facebook group + links</p>
-            </div>
-        </div>
-    </div>
-	<script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+<body class="response-body">
+
+<!-- Navbar Container -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="file:///Users/noahvanschilt/BUas/Web%20Development/tutorial_final/prj4-chasr/packages.html">Package</a>
+  <a href="#contact">Design</a>
+  <a href="file:///Users/noahvanschilt/BUas/Web%20Development/tutorial_final/prj4-chasr/contact.html#news">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- Response Container -->
+<div class="response-jumbotron">
+  <h1 class="response-h1">Thank You!</h1>
+  <p class="lead"><strong>We received your message</strong> 
+    <br>
+  One of our proffesionals will contact you as soon as possible!</p>
+  <hr>
+  <p class="lead">
+    <a class="btn" href="file:///Users/noahvanschilt/BUas/Web%20Development/tutorial_final/prj4-chasr/index.html" role="button">Return</a>
+  </p>
+</div>
 </body>
 
-<br>
-
-<footer>
-    <div class="row">
-        <div class="col-md-6 col-12">
-            <p>Facebook</p>
-        </div>
-        <div class="col-md-6 col-12">
-            <p>Instagram</p>
+<!-- Footer Container -->
+<footer class="footer-chasr">
+        <div class="row">
+        <div class="col-12">
+        <div class="social-menu">
+            <ul>
+            <li><a href="https://www.facebook.com/CompanyChasr/" target="_blank" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.instagram.com/companychasr/" target="_blank" class="fa fa-instagram"></a></li>
+        </ul>
         </div>
     </div>
+</div>
+
+<div class="footer-copyright">
+<div class="row">
+    <div class="col-12">
+        &copy; Chasr 2020
+    </div>
+</div>
+</div>
 </footer>
 </html>
