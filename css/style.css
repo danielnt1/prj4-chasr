@@ -63,6 +63,7 @@
   background-image: url("../images/jumboheader1.jpg");
   background-size: cover;
   height: 800px;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -86,4 +87,23 @@
 
 .photospace {
     margin: 20px;
+}
+
+.aboutchasr {
+	margin-top: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.bg-1 {
+  background: #2d2d30;
+  color: #bdbdbd;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.bg-1 h3 {color: #fff;
+}
+
+.bg-1 p {font-style: italic;
 }
