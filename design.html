@@ -11,52 +11,95 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row nav">
-            <div class="col-10">
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="p-4">
-                        <nav class="nav">
-                            <a class="nav-link" href="index.html"><p class="navtext">Home</p></a>
-                            <a class="nav-link" href="community.html"><p class="navtext">Community</p></a>
-                            <a class="nav-link" href="latest.html"><p class="navtext">Latest Info</p></a>
-                            <a class="nav-link" href="packages.html"><p class="navtext">Packages</p></a>
-                            <a class="nav-link" href="contact.html"><p class="navtext">Contact</p></a>
-                            <a class="nav-link disabled" href="design_justification.html"><p class="navtext currentPage">Design Justification</p></a>
-                        </nav>
-                    </div>
-                </div>
-                <nav class="navbar navbar-dark">
-                    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                </nav>
-            </div>
-            <div class="col-2">
-                <img src="images/chasr_white.png" class="img-fluid" alt="chasr logo" height="15px">
-            </div>
-        </div>
+
+    <!-- Start of Navbar -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="packages.html" class="active">Package</a>
+        <a href="design.html" class="active">Design</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+        }
+    </script>
+
+
+    <!-- JumboTron Header -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="voorkant">
+               <h2 class="package-h2">Design Justification</h2>
+            </div>
+         </div>
+    </div>
+
     <div class="container">
         <div class="row">
-            <div class="col-12" style="background-color: green">
-                <p>Design Justifications</p>
+            <div class="col-md-2 col-12"></div>
+            <div class="col-md-8 col-12">
+                <h3 class="package-h3">Website Flow Diagram</h3>
+                <p>Below is the mindmap used to help develop the flow of the website.</p>
+                <img src="images/mindmap.PNG" class="img-fluid" alt="mindmap">
+                <h3 class="package-h3">Wireframes</h3>
+                <p>Below are the wireframes for the index page as well as the XXXX page.</p>
+                <h3 class="package-h3">Colour Choices</h3>
+                <p>Our logo was originally coloured blue, however we felt that darker colours would be more appropriate to showcase the professionalism of the company site. Therefore, the main colours used where blacks, grays and whites. Mainly hexcodes #FFFFFF and #17141A, among other shades of grey.
+                <h3 class="package-h3">Font Choices</h3>
+                <p>Our company logo was made using Rubik, so we continued to use that font in all headers. Furthermore we used Open Sans because we felt it matched with Rubik as well as looking clean and professional.
+                <h3 class="package-h3">User Testing Report</h3>
+                <p>After the tutorial about wireframes and prototyping, we conducted two more user testing sessions. Leading to a total of three test users. While the first test was using paper prototypes, the following tests used a digital prototype. The following tasks were given:</p>
+                <ul>
+                    <li>Purchase the student product.</li>
+                    <li>Send a contact form to us.</li>
+                    <li>Find our Facebook page.</li>
+                </ul>
+                <p>
+                    The main issues we had with our prototypes was important information was near the bottom of the page, meaning users needed to scroll down to see such info. This was a problem since users are not likely to scroll down since they can lose interest if they don't see the point of the page.<br>
+                    <br>
+                    The improvements that we incorperated into our website were 1) move the important information near the top of the page thus to engage users more quickly, and 2) to make it more clear what each page means and what the buttons do.
+
             </div>
+            <div class="col-md-2 col-12"></div>
         </div>
     </div>
+
+
+
 	<script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 <br>
 
-<footer>
+<!-- Footer Container -->
+<footer class="footer-chasr">
     <div class="row">
-        <div class="col-md-6 col-12">
-            <p>Facebook</p>
+        <div class="col-12">
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://www.facebook.com/CompanyChasr/" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/companychasr/" target="_blank" class="fa fa-instagram"></a></li>
+            </ul>
+            </div>
         </div>
-        <div class="col-md-6 col-12">
-            <p>Instagram</p>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="row">
+            <div class="col-12">
+            &copy; Chasr 2020
+            </div>
         </div>
     </div>
 </footer>
