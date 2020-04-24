@@ -1,80 +1,164 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Header Container -->
 <head>
 	<title>Packages - Chasr</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" >
 	<link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
-<body>
+<body class="package-body">
+
+<!-- Navbar Container -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="packages.html" class="active">Package</a>
+  <a href="design.html" class="active">Design</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- Package Container -->
+ <div class="jumbotron">
+         <div class="container">
+            <div class="voorkant">
+               <h2 class="package-h2">Packages</h2>
+                 <h3 class="package-h3">Choose the package that suits you best</h3>
+            </div>
+         </div>
+      </div>
   <div class="container-fluid">
-        <div class="row nav">
-            <div class="col-10">
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="p-4">
-                        <nav class="nav">
-                            <a class="nav-link" href="index.html"><p class="navtext">Home</p></a>
-                            <a class="nav-link" href="community.html"><p class="navtext">Community</p></a>
-                            <a class="nav-link disabled" href="packages.html"><p class="navtext currentPage">Packages</p></a>
-                            <a class="nav-link" href="contact.html"><p class="navtext">Contact</p></a>
-                            <a class="nav-link" href="design_justification.html"><p class="navtext">Design Justification</p></a>
-                        </nav>
-                    </div>
-                </div>
-                <nav class="navbar navbar-dark">
-                    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                </nav>
-            </div>
-            <div class="col-2">
-                <img src="images/chasr_white.png" class="img-fluid" alt="chasr logo" height="15px">
-            </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1 class="package-h1">Student Package</h1>
+            <h6 class="package-h6"> Find your dream study</h6>
+          </div>
+        <div class="panel-body">
+              <p>Personal Coaching</p>
+              <p>Orientation Class</p>
+              <p>Personal Advice Based On Research</p>
+              <p>Study Application Guidance</p>
+              <p>Personality Test</p>
+              <p>Workshop</p>
+              <p>Chasr Community Membership</p>
         </div>
+          <div class="panel-footer">
+            <h5 class="package-h5">€99,-</h5>
+            <button class="btn">Order</button>
+            <form action="responses.html" target="_blank"></form>
+          </div>
+      </div> 
+    </div> 
+   <div class="col-sm-12 col-lg-6">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1 class="package-h1">Adult Package</h1>
+          <h6 class="package-h6"> Find your dream job</h6>
+        </div>
+        <div class="panel-body">
+          <p>Personal Coaching</p>
+          <p>Orientation Class</p>
+          <p>Personal Advice Based On Research</p>
+          <p>Job Apply Assistance</p>
+          <p>Personality Test</p>
+          <p>Workshop</p>
+          <p>Chasr Community Membership</p>
+        </div>
+        <div class="panel-footer">
+          <h5 class="package-h5">€149,-</h5>
+          <button class="btn">Order</button>
+          <form action="responses.html" target="_blank">
+        </div>
+      </div> 
+    </div> 
+  </div>
+</div>
+
+</div>
+
+  <div class="container-fluid">  
+ <div class="row">
+    <div class="col-sm-12 col-lg-4">
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://images.pexels.com/photos/842567/pexels-photo-842567.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">L. Rhodes</h5>
+    <p class="card-text">One of our personal coaches, ready to take the next step with you.</p>
+    <button class="btn">Contact</button>
+    <form action="responses.html" target="_blank">
+  </div>
+</div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-6" style="background-color: green">
-                <p>Image_Packages</p>
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12" style="background-color: cyan">
-                        <p>Find the package for you!</p>
-                    </div>
-                    <div class="col-12" style="background-color: red">
-                        <p>Order now!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12" style="background-color: blue">
-                <p>Details of each package and their prices</p> 
-            </div>
-            <div class="col-12" style="background-color: magenta">
-                <p>Payment details</p>
-            </div>
-        </div>
+    <div class="col-sm-12 col-lg-4">
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">J. Sins</h5>
+    <p class="card-text">The creator of our succesful personality test.</p>
+      <button class="btn">Contact</button>
+      <form action="responses.html" target="_blank">
+  </div>
+</div>
     </div>
+    <div class="col-sm-12 col-lg-4">
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://images.pexels.com/photos/1138903/pexels-photo-1138903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">R. Reid</h5>
+    <p class="card-text">The big brain behind all the workshops</p>
+      <button class="btn">Contact</button>
+      <form action="responses.html" target="_blank">
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+  
+
 	<script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
-<br>
-
-<footer>
-    <div class="row">
-        <div class="col-md-6 col-12">
-            <p>Facebook</p>
-        </div>
-        <div class="col-md-6 col-12">
-            <p>Instagram</p>
+<!-- Footer Container -->
+<footer class="footer-chasr">
+        <div class="row">
+        <div class="col-12">
+        <div class="social-menu">
+            <ul>
+            <li><a href="https://www.facebook.com/CompanyChasr/" target="_blank" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.instagram.com/companychasr/" target="_blank" class="fa fa-instagram"></a></li>
+        </ul>
         </div>
     </div>
+</div>
+
+<div class="footer-copyright">
+<div class="row">
+    <div class="col-12">
+        &copy; Chasr 2020
+    </div>
+</div>
+</div>
 </footer>
 </html>
