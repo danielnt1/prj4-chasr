@@ -29,9 +29,10 @@
   .package-h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #17141a;
+    color: #fff;
     font-weight: 600;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #000000;
  }
   .contact-h2 {
     font-size: 24px;
@@ -43,8 +44,8 @@
 
    .package-h3 {
     font-size: 14px;
-   
-    color: #17141a;
+    text-shadow: 2px 2px 4px #000000;
+    color: #fff;
     font-weight: 600;
     margin-bottom: 30px;
 }
