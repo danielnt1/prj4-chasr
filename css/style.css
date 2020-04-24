@@ -4,25 +4,24 @@
 	padding: 0;
 	border: 0;
 	margin: auto;
-	font-family: 'Open Sans', sans-serif;
 	font-family: 'Rubik', sans-serif;
 }
 
 /* Body/Text Container */
   .contact-body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #818181;
   }
 
   .package-body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #818181;
   }
 
   .response-body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #818181;
   }
@@ -123,7 +122,7 @@ chasrlogo {
 }
 
 .bg-grey {
-  background-color: #f6f6f6;
+  	background-color: #f6f6f6;
 }
 
 .p-1 {
@@ -313,6 +312,6 @@ chasrlogo {
 }
 
 .footer-copyright {
-text-align: right;
-margin-right: 50px;
+	text-align: right;
+	margin-right: 50px;
 }
