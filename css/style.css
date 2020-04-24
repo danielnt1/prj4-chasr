@@ -116,14 +116,6 @@
   }
 }
 
-.jumbotronIndex {
-  background-image: url("../images/jumboheader1.jpg");
-  background-size: cover;
-  height: 800px;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .chasrlogo {
 	text-align: center;
 	margin-top: 275px;
@@ -160,6 +152,14 @@
   color: #fff;
   margin-top: 50px;
   }
+
+  #jumbotronIndex {
+  background-image: url("../images/jumboheader1.jpg");
+  background-size: cover;
+  height: 800px;
+  background-position: center;
+  background-attachment: fixed;
+}
 
   .container-fluid {
     padding: 60px 50px;
